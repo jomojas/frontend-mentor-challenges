@@ -669,6 +669,10 @@ video {
   line-height: 1.75rem;
 }
 
+.text-fluid-size {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -714,13 +718,13 @@ video {
     width: 500px;
   }
 
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
