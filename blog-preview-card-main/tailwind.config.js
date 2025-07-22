@@ -21,7 +21,10 @@ module.exports = {
         'custom-dark': '8px 8px 00px rgba(0, 0, 0, 1)' 
       },
       fontSize: {
-        'fluid-size': 'clamp(1rem, 2.5vw, 1.5rem)'
+        'fluid-size': 'clamp(1rem, 2.5vw, 1.5rem)',
+      },
+      width: {
+        'fluid-avatar': 'clamp(2.5rem, 6vw, 4rem)',
       }
     },
   },

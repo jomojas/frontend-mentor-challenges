@@ -572,10 +572,6 @@ video {
   min-height: 100vh;
 }
 
-.w-9 {
-  width: 2.25rem;
-}
-
 .w-\[300px\] {
   width: 300px;
 }
@@ -583,6 +579,10 @@ video {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-fluid-avatar {
+  width: clamp(2.5rem, 6vw, 4rem);
 }
 
 .flex-col {
@@ -664,11 +664,6 @@ video {
   font-family: Figtree, sans-serif;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-fluid-size {
   font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
@@ -701,30 +696,10 @@ video {
   .md\:w-\[400px\] {
     width: 400px;
   }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 1440px) {
   .lg\:w-\[500px\] {
     width: 500px;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
