@@ -1,0 +1,12 @@
+# Dependency directory
+node_modules/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Environment files
+.env
+.env.local
